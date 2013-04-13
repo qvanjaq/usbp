@@ -1,12 +1,12 @@
 body{
-    background: url(../images/bg-body.png);    
+    background: url(../images/bg-body.png);
 }
-#mainContainer{    
+#mainContainer{
     min-height: 100%;
 }
 
 #mainContainer2 {
-    padding-bottom: 100px;    
+    padding-bottom: 100px;
 }
 
 #footer{
@@ -42,4 +42,10 @@ body{
 #mainMenu ul{
     width: 100%;
     text-align: center;
+}
+
+select{
+	background-color:  #ddd;
+	border: 1px solid #ccc;
+	font-size: 14px;
 }

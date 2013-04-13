@@ -1,0 +1,42 @@
+#dropPanel{
+	width: 250px;
+	height: 70px;
+	background-color: #858585;
+	float: right;
+	margin-bottom: 5px;
+}
+#dropPanel,textarea{
+	border-radius: 3px;
+	border: 0px;
+}
+.label{
+	font-size: 14px;
+	width: 162px;
+	vertical-align: middle;
+}
+.ui-button-text{
+	padding: .2em .7em;
+	color: rgb(85, 85, 85);
+}
+#typeUpload{
+	display: inline-block;
+}
+#filesForm{
+	width: 387px;
+	margin: 10px auto;
+}
+textarea{
+	width: 200px;
+	height: 55px;
+
+}
+#filesForm tr td {
+	padding-bottom: 10px;
+}
+ .progress-label {
+    float: left;
+    margin-left: 50%;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }

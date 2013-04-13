@@ -174,3 +174,227 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
 ---
+2013/04/10 06:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /var/www/usbp/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/usbp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 08:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/
+---
+2013/04/12 09:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/index.php
+---
+2013/04/12 09:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/front/textfiels".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('main/front/text...')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/index.php?r=main/front/textfiels
+---
+2013/04/12 09:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/front/textfiles".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('main/front/text...')
+#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/usbp/index.php?r=main/front/textfiles
+---
