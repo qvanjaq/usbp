@@ -13,6 +13,12 @@
 </head>
 
 <body>
+	<?php
+		//session_destroy();
+		echo '<pre id="sessionInfo" style="overflow: hidden; width: 400px; background-color: #fff; position: absolute;">Session information:';
+		var_dump(Yii::app()->session['filesInfo']);
+		echo '</pre>';
+	?>
     <?php echo $content; ?>
 </body>
 </html>

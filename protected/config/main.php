@@ -10,7 +10,7 @@ return array(
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log','session'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -19,7 +19,7 @@ return array(
 	),
 
 	'modules'=>array(
-		// uncomment the following to enable the Gii tool		
+		// uncomment the following to enable the Gii tool
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'1',
@@ -79,6 +79,10 @@ return array(
 				*/
 			),
 		),
+		'session' => array(
+			'class' => 'CHttpSession',
+			'autoStart' => true
+		),
 	),
 
 	// application-level parameters that can be accessed
@@ -86,5 +90,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+		'uploadPath' => sys_get_temp_dir(),
+		'packetSize' => 1048576
 	),
 );

@@ -1,16 +1,22 @@
-<form id="filesForm">
+<script src="js/jsUpload.js"></script>
+<script>
+	var urlUploadFile = '<?php echo $this->createUrl("/upload/upload/file"); ?>';
+	var packetSize = '<?php echo Yii::app()->params['packetSize'] ?>';
+</script>
+<form name="onlyFiles" method="post" enctype="multipart/form-data">
+	<input type="file" id="files" multiple="multiple">
+</form>
+
+<form id="filesForm" method="post">
 	<table>
 		<tr id="selectFiles">
 			<td class="label" id="labelChooseUpload">Choose source of images</td>
 			<td>
-				<div id="typeUpload">
-					<input type="radio" id="typePopup" name="radio" /><label for="typePopup">Popup</label>
-					<input type="radio" id="typeDrag" name="radio" checked="checked" /><label for="typeDrag">Drag'n'Drop</label>
-				</div>
+				<input type="button" id="typePopup" value="Open">
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2"><div id="dropPanel"></div></td>
+			<td colspan="2"><div id="dropPanel"><div class="info">Or drag and drop files here</div></div></td>
 		</tr>
 		<tr id="filesEncodingWrapper">
 			<td class="label">Files encoding</td>

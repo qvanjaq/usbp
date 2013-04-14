@@ -40,3 +40,14 @@ textarea{
     font-weight: bold;
     text-shadow: 1px 1px 0 #fff;
   }
+
+  #filesProgress{
+	  font-size: 11px;
+  }
+  #dropPanel .info{
+	  text-align: center;
+	  margin-top: 25px;
+  }
+  #files{
+	  display: none;
+  }

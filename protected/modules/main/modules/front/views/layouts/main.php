@@ -5,7 +5,7 @@
             <div id="mainMenu">
                 <ul>
                     <li><a>Images</a></li>
-                    <li><a>Texts</a></li>    
+                    <li><a>Texts</a></li>
                 </ul>
             </div>
         </div>
