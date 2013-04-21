@@ -1,8 +1,13 @@
-<script src="js/jsUpload.js"></script>
 <script>
-	var urlUploadFile = '<?php echo $this->createUrl("/upload/upload/file"); ?>';
-	var packetSize = '<?php echo Yii::app()->params['packetSize'] ?>';
+	var URL_UPLOAD_FILE = '<?php echo $this->createUrl("/upload/upload/file"); ?>';
+	var URL_LOG = '<?php echo $this->createUrl("/main/log/log/writeJs"); ?>';
+	var packetSize = <?php echo Yii::app()->params['packetSize'] ?>;
 </script>
+<script type="text/javascript" src="js/log.js"></script>
+<script src="js/jsUpload.js"></script>
+<script type="text/javascript" src="js/upload-files.js"></script>
+<script type="text/javascript" src="js/text-files.js"></script>
+
 <form name="onlyFiles" method="post" enctype="multipart/form-data">
 	<input type="file" id="files" multiple="multiple">
 </form>

@@ -1,6 +1,6 @@
 <?php
 
-class MainModule extends CWebModule
+class LogModule extends CWebModule
 {
 	public function init()
 	{
@@ -9,12 +9,9 @@ class MainModule extends CWebModule
 
 		// import the module-level models and components
 		$this->setImport(array(
-			'main.models.*',
-			'main.components.*',
+			'log.models.*',
+			'log.components.*',
 		));
-		$this->setModules(array('front', 'admin', 'log'));
-		$this->layoutPath="protected/modules/main/views/layouts";
-		$this->layout="main";
 	}
 
 	public function beforeControllerAction($controller, $action)

@@ -1,644 +1,696 @@
-2013/04/05 08:25:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/usbp/protected/framework/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
-#1 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/usbp/index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php?r=gii
----
-2013/04/05 08:40:22 [error] [exception.CException] exception 'CException' with message 'Alias "front.FrontModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/usbp/protected/framework/YiiBase.php:316
-Stack trace:
-#0 /var/www/usbp/protected/framework/YiiBase.php(196): YiiBase::import('front.FrontModu...', true)
-#1 /var/www/usbp/protected/framework/base/CModule.php(284): YiiBase::createComponent('front.FrontModu...', 'main/front', Object(MainModule), Array)
-#2 /var/www/usbp/protected/framework/web/CWebApplication.php(337): CModule->getModule('front')
-#3 /var/www/usbp/protected/framework/web/CWebApplication.php(338): CWebApplication->createController('front/', Object(MainModule))
-#4 /var/www/usbp/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('main/front')
-#5 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front')
-#6 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#7 /var/www/usbp/index.php(13): CApplication->run()
-#8 {main}
-REQUEST_URI=/usbp/index.php?r=main/front
----
-2013/04/06 06:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/textfiles".' in /var/www/usbp/protected/framework/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/textfiles')
-#1 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/usbp/index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php?r=main/textfiles
----
-2013/04/06 06:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/pages/textfiles".' in /var/www/usbp/protected/framework/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/pages/text...')
-#1 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/usbp/index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php?r=main/pages/textfiles
----
-2013/04/06 06:30:06 [error] [exception.CException] exception 'CException' with message 'PagesController cannot find the requested view "index".' in /var/www/usbp/protected/framework/web/CController.php:878
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CController->render('index')
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:31:12 [error] [exception.CException] exception 'CException' with message 'PagesController cannot find the requested view "index".' in /var/www/usbp/protected/framework/web/CController.php:878
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CController->render('index')
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:31:44 [error] [exception.CException] exception 'CException' with message 'PagesController cannot find the requested view "index".' in /var/www/usbp/protected/framework/web/CController.php:878
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CController->render('index')
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:32:04 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.breadcrumbs" is not defined.' in /var/www/usbp/protected/framework/base/CComponent.php:173
-Stack trace:
-#0 /var/www/usbp/protected/modules/main/views/default/index.php(4): CComponent->__set('breadcrumbs', Array)
-#1 /var/www/usbp/protected/framework/web/CBaseController.php(126): require('/var/www/usbp/p...')
-#2 /var/www/usbp/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/usbp/p...', NULL, true)
-#3 /var/www/usbp/protected/framework/web/CController.php(869): CBaseController->renderFile('/var/www/usbp/p...', NULL, true)
-#4 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#5 /var/www/usbp/protected/modules/main/controllers/DefaultController.php(7): CController->render('index')
-#6 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
-#7 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#8 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#9 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#10 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('')
-#11 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main')
-#12 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#13 /var/www/usbp/index.php(13): CApplication->run()
-#14 {main}
-REQUEST_URI=/usbp/index.php?r=main
----
-2013/04/06 06:40:00 [error] [exception.CException] exception 'CException' with message 'PagesController cannot find the requested view "index".' in /var/www/usbp/protected/framework/web/CController.php:878
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CController->render('index')
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:45:01 [error] [exception.CException] exception 'CException' with message 'PagesController and its behaviors do not have a method or closure named "getLayout".' in /var/www/usbp/protected/framework/base/CComponent.php:265
-Stack trace:
-#0 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CComponent->__call('getLayout', Array)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): PagesController->getLayout()
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:45:34 [error] [exception.CException] exception 'CException' with message 'PagesController and its behaviors do not have a method or closure named "getLayoutPath".' in /var/www/usbp/protected/framework/base/CComponent.php:265
-Stack trace:
-#0 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CComponent->__call('getLayoutPath', Array)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): PagesController->getLayoutPath()
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:45:35 [error] [exception.CException] exception 'CException' with message 'PagesController and its behaviors do not have a method or closure named "getLayoutPath".' in /var/www/usbp/protected/framework/base/CComponent.php:265
-Stack trace:
-#0 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CComponent->__call('getLayoutPath', Array)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): PagesController->getLayoutPath()
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/06 06:50:57 [error] [exception.CException] exception 'CException' with message 'PagesController cannot find the requested view "index".' in /var/www/usbp/protected/framework/web/CController.php:878
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
-#1 /var/www/usbp/protected/modules/main/modules/front/controllers/PagesController.php(7): CController->render('index')
-#2 /var/www/usbp/protected/framework/web/actions/CInlineAction.php(49): PagesController->actionTextFiles()
-#3 /var/www/usbp/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
-#4 /var/www/usbp/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
-#5 /var/www/usbp/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 /var/www/usbp/protected/framework/web/CWebApplication.php(282): CController->run('textfiles')
-#7 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('main/front/page...')
-#8 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#9 /var/www/usbp/index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/10 06:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /var/www/usbp/protected/framework/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/usbp/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
-#1 /var/www/usbp/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/usbp/index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 08:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/
----
-2013/04/12 09:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php
----
-2013/04/12 09:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/front/textfiels".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('main/front/text...')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/textfiels
----
-2013/04/12 09:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/front/textfiles".' in Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php:286
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('main/front/text...')
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#2 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/usbp/index.php?r=main/front/textfiles
----
-2013/04/14 09:48:18 [error] [exception.CException] exception 'CException' with message 'Alias "upload.UploadModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in Z:\home\localhost\www\usbp\protected\framework\YiiBase.php:316
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\YiiBase.php(196): YiiBase::import('upload.UploadMo...', true)
-#1 Z:\home\localhost\www\usbp\protected\framework\base\CModule.php(282): YiiBase::createComponent('upload.UploadMo...', 'upload', NULL, Array)
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(337): CModule->getModule('upload')
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(276): CWebApplication->createController('upload/upload/f...')
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#5 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#6 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#7 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 09:50:01 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.breadcrumbs" is not defined.' in Z:\home\localhost\www\usbp\protected\framework\base\CComponent.php:173
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\modules\upload\views\default\index.php(4): CComponent->__set('breadcrumbs', Array)
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CBaseController.php(126): require('Z:\home\localho...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', NULL, true)
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', NULL, true)
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
-#5 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\DefaultController.php(7): CController->render('index')
-#6 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
-#7 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#8 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#9 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#10 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('')
-#11 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload')
-#12 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#13 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#14 {main}
-REQUEST_URI=/usbp/index.php?r=upload
-HTTP_REFERER=http://localhost/usbp/index.php?r=gii/module
----
-2013/04/14 10:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659254861216243291".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659254861216243291&token=c7922df842e4eb6690df68ab02daebc9&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 10:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659254861216243291".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659254861216243291&token=c7922df842e4eb6690df68ab02daebc9&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 10:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659254861216243291".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659254861216243291&token=c7922df842e4eb6690df68ab02daebc9&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=1365926777177857145".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=1365926777177857145&token=8b371ea9158a2a6d1d734fbc79f15346&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:07:30 [error] [exception.CException] exception 'CException' with message 'Property "UploadController.session" is not defined.' in Z:\home\localhost\www\usbp\protected\framework\base\CComponent.php:130
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(49): CComponent->__get('session')
-#1 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(14): UploadController->newUpload()
-#2 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): UploadController->actionFile()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#5 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file')
-#7 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#8 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#9 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:08:28 [error] [exception.CException] exception 'CException' with message 'Property "UploadController.session" is not defined.' in Z:\home\localhost\www\usbp\protected\framework\base\CComponent.php:130
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(49): CComponent->__get('session')
-#1 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(14): UploadController->newUpload()
-#2 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): UploadController->actionFile()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#5 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file')
-#7 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#8 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#9 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:10:20 [error] [exception.CException] exception 'CException' with message 'UploadController and its behaviors do not have a method or closure named "app".' in Z:\home\localhost\www\usbp\protected\framework\base\CComponent.php:265
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(49): CComponent->__call('app', Array)
-#1 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(49): UploadController->app()
-#2 Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php(14): UploadController->newUpload()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): UploadController->actionFile()
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#5 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#6 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#7 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file')
-#8 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#9 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#10 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#11 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:11:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659270641045966117".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659270641045966117&token=3a26388699b2d27287f2d2feb510d387&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659272781464078539".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659272781464078539&token=de6b2eb69c748821dafe004c2a5917d0&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:22:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659277531956540499".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659277531956540499&token=2abbc60e9882e54ef664559bd5f5f260&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 11:58:58 [error] [php] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array (Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php:54)
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): UploadController->actionFile()
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): UploadController->runAction()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): UploadController->runActionWithFilters()
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): UploadController->run()
-#5 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#6 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#7 Z:\home\localhost\www\usbp\index.php(13): CWebApplication->run()
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (54)
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (14)
-in Z:\home\localhost\www\usbp\index.php (13)
-2013/04/14 12:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659300361773924489".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659300361773924489&token=5f74b42a612fb969f6cc3128bae59ac5&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 12:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659301461648264046".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659301461648264046&token=3fd7a7fb3604122fb130ab63fe503a5b&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 12:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=1365930158608460118".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=1365930158608460118&token=2b16caa46d94ebd0c00b8603a5af98fb&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 12:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file?fileid=13659300361773924489".' in Z:\home\localhost\www\usbp\protected\framework\web\CController.php:483
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(270): CController->missingAction('file?fileid=136...')
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): CController->run('file?fileid=136...')
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/upload/f...')
-#3 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#4 Z:\home\localhost\www\usbp\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/usbp/index.php?r=upload/upload/file?fileid=13659300361773924489&token=5f74b42a612fb969f6cc3128bae59ac5&packet=0
-HTTP_REFERER=http://localhost/usbp/index.php?r=main/front/pages/textfiles
----
-2013/04/14 13:14:01 [error] [php] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given (Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php:69)
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\actions\CInlineAction.php(49): UploadController->actionFile()
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): UploadController->runAction()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): UploadController->runActionWithFilters()
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): UploadController->run()
-#5 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#6 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#7 Z:\home\localhost\www\usbp\index.php(13): CWebApplication->run()
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (69)
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (17)
-in Z:\home\localhost\www\usbp\index.php (13)
-2013/04/14 13:37:18 [error] [php] Division by zero (Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php:78)
-Stack trace:
-#0 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
-#1 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(286): UploadController->runAction()
-#2 Z:\home\localhost\www\usbp\protected\framework\web\CController.php(265): UploadController->runActionWithFilters()
-#3 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(282): UploadController->run()
-#4 Z:\home\localhost\www\usbp\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
-#5 Z:\home\localhost\www\usbp\protected\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#6 Z:\home\localhost\www\usbp\index.php(13): CWebApplication->run()
-REQUEST_URI=/usbp/index.php?r=upload/upload/file
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (78)
-in Z:\home\localhost\www\usbp\protected\modules\upload\controllers\UploadController.php (17)
-in Z:\home\localhost\www\usbp\index.php (13)
+2013/04/21 09:27:29 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:29 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1932 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:29 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:29 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1933 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1934 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1935 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1936 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1937 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1938 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1939 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:30 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1940 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1941 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1942 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1943 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1944 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1945 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:31 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1946 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1947 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1948 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1949 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1950 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1951 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1952 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1953 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1954 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1955 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1956 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:32 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1957 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1958 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1959 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1960 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1961 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1962 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1963 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1964 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:33 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1965 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1966 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1967 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1968 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:34 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1969 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1970 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1971 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1972 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1973 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1974 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1975 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1976 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1977 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1978 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:35 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1979 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1980 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1981 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1982 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1983 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1984 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1985 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1986 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1987 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1988 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:36 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1989 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1990 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1991 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1992 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1993 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1994 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1995 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1996 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:37 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1997 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1998 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 1999 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2000 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2001 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:38 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2002 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2003 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2004 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2005 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2006 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2007 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:39 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2008 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2009 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2010 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2011 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2012 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2013 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:40 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2014 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2015 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2016 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2017 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (193)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/21 09:27:41 [info] [upload.newUpload] [bjen43asq892k5vsc9q0vg0bp7] End uploaded packet 2018 in file 13665288321730805313
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (221)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)

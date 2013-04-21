@@ -8,14 +8,14 @@
         <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.10.2.custom.min.css">
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.10.2.custom.min.js"></script>
-        <script type="text/javascript" src="js/text-files.js"></script>
 	<title></title>
 </head>
 
 <body>
 	<?php
 		//session_destroy();
-		echo '<pre id="sessionInfo" style="overflow: hidden; width: 400px; background-color: #fff; position: absolute;">Session information:';
+		echo 'Upload dir: ' . Yii::app()->params['uploadPath'];
+		echo '<pre id="sessionInfo" style="overflow: hidden; width: 550px; background-color: #fff; position: absolute;">Session information:';
 		var_dump(Yii::app()->session['filesInfo']);
 		echo '</pre>';
 	?>

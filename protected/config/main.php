@@ -1,5 +1,5 @@
 <?php
-
+$tmp_dir = ini_get('upload_tmp_dir') ? ini_get('upload_tmp_dir') : sys_get_temp_dir();
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
@@ -26,8 +26,8 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-                'main',
-                'upload'
+		'main',
+		'upload'
 	),
 
 	// application components
@@ -69,8 +69,36 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'info, profile, trace',
+					'categories' => 'upload.*',
+					'filter'=> array(
+						'class' => 'CLogFilter',
+						'logVars' => array(),
+						'prefixSession' => true
+					)
 				),
+				array(
+					'class'=>'CFileLogRoute',
+					'levels'=>'error, warning',
+					'categories' => 'upload.*',
+					'filter'=> array(
+						'class' => 'CLogFilter',
+						'logVars' => array('_POST', '_GET', '_SESSION'),
+						'prefixSession' => true
+					)
+				),
+				array(
+					'class'=>'CFileLogRoute',
+					'levels'=>'info, profile, trace, error, warning',
+					'categories' => 'javascript',
+					'logFile' => 'javascript.log',
+					'filter'=> array(
+						'class' => 'CLogFilter',
+						'logVars' => array(),
+						'prefixSession' => true
+					)
+				),
+
 				// uncomment the following to show log messages on web pages
 				/*
 				array(
@@ -90,7 +118,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-		'uploadPath' => sys_get_temp_dir(),
+		'uploadPath' => $tmp_dir . '/uploads/',
 		'packetSize' => 1048576
 	),
 );

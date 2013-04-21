@@ -13,6 +13,8 @@
  */
 function jsUpload(options){
     var packetSize,
+	activeReconnectError = false,
+	activeReconnectTimeout = false,
     self = this;
 
     options.logger = options.logger || function(msg){
@@ -36,6 +38,7 @@ function jsUpload(options){
     function init(){
 		log('File uploader initialized');
         self.file = options.file;
+        self.idUpload = options.idUpload;
 		self.totalSize = self.file.size;
         self.url = options.destination;
         self.type = self.file.type;
@@ -45,6 +48,7 @@ function jsUpload(options){
         self.totalPackages = Math.ceil(self.totalSize/self.packetSize);
         log('Total size: ' + self.totalSize/(1024*1024) + " mb, total of " + self.totalPackages + " packets");
         self.fileDetails = getFile(self.fileId);
+		self.reconnectionTimeout = options.reconnectionTimeout;
     }
 
     /**
@@ -71,6 +75,8 @@ function jsUpload(options){
             formData.append('totalSize', self.totalSize);
             formData.append('type', self.type);
             formData.append('fileName', self.fileName);
+			localStorage.clear();
+			formData.append('idUpload', self.idUpload);
 
             var xhr = new XMLHttpRequest();
             xhr.open('POST', self.url, true);
@@ -138,7 +144,9 @@ function jsUpload(options){
 					//last parameter is 'alldone' plus the timestamp
 					var currTimeStamp = Math.round(new Date().getTime() / 1000);
 					setFile(self.fileId, self.fileDetails.fileId, self.fileDetails.token, 'alldone|' + currTimeStamp);
-                }
+                } else{
+					localStorage.removeItem(self.fileId)
+				}
             };
             xhr.send(formData);
 
@@ -202,18 +210,36 @@ function jsUpload(options){
             updateProgress(fileDetails,e.position);
         };
 
+		// Multiple handle disconnect for different browsers.
+		// Use variable activeReconnect to prevent state, when browser
+		// generate multiple event(onerror and ontimeout).
+        xhr.onerror = function(e){
+			if(self.activeReconnectTimeout) return;
+			self.activeReconnectError = true;
+            setTimeout(function(){
+				uploadPacket(packet);
+			}, self.reconnectionTimeout);
+        };
+
 		/**
 		 * If the server uploaded the packet successfully, then go to updateDetails() where log the success,
 		 * and initiate uploading the next package (if we not paused while it uploaded)
 		 */
-        xhr.onload = function (e){
-            var response = JSON.parse(xhr.responseText);
-            if (response.action=="new_packet" && response.result=="success"){
-                updateDetails(fileDetails);
-            }
-
-        };
-
+		xhr.onreadystatechange = function (e) {
+		  if (xhr.readyState == 4) {
+			try
+			{
+				var response = JSON.parse(xhr.responseText);
+				if (response.action=="new_packet" && response.result=="success"){
+					updateDetails(fileDetails);
+				}
+			}
+			catch(e)
+			{
+			   log('Invalid JSON in readyState 4.');
+			}
+		  }
+		};
 
         xhr.send(packet);
     }
