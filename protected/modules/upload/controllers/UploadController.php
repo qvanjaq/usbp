@@ -74,7 +74,8 @@ private function clearAllUploadFiles() {
 				$filesInfo = Yii::app()->session['filesInfo'];
 				foreach($filesInfo as $idFile => $info) {
 					list($fileSize, $fileType, $fileName) = explode("|", $info['fileData']);
-					$this->clearUploadFiles($fileSize, $idFile);
+					$totalPackages = ceil($fileSize / Yii::app()->params['packetSize']);
+					$this->clearUploadFiles($totalPackages, $idFile);
 				}
 				Yii::app()->session['filesInfo'] = null;
 			}
@@ -170,7 +171,7 @@ private function clearUploadFiles($totalPackages, $fileId, $handle=null) {
 private function clearUploadPackages($totalPackages, $fileId){
 	// remove the packages
 	for ($package = 0; $package < $totalPackages; $package++) {
-		$pathPacket = Yii::app()->params['uploadPath'] . $fileId . "-" . $package;
+		$pathPacket =  Yii::app()->params['uploadPath'] . $fileId . "-" . $package;
 		if(file_exists($pathPacket)) {
 			if (!unlink($pathPacket)) {
 				$errMes = "Unable to remove package #" . $package;

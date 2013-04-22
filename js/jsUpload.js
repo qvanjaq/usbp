@@ -1,3 +1,28 @@
+function Uploader(files, uplFinCallback, options) {
+	var parentSelf = this;
+
+	function init() {
+		parentSelf.files = files;
+		parentSelf.options = options;
+		parentSelf.uplFinCallback = uplFinCallback;
+		parentSelf.statusUpload = [];
+		for(var i = 0; i < parentSelf.files.length; i++)
+			parentSelf.statusUpload[i] = 0;
+	}
+
+	this.upload = function() {
+		var options = parentSelf.options;
+		for(var i = 0; i < parentSelf.files.length; i++) {
+			options.file = parentSelf.files[i];
+			options.id = i;
+			new jsUpload(options, parentSelf);
+		}
+	};
+
+	init();
+}
+
+
 /**
  * The core upload function. The way it works is very simple: slice the file on client side, sends the slices
  * to the server. When no more slices remain the server merges the slices (or packets). This function continuously stores
@@ -11,7 +36,7 @@
  * @param options.pauseButton Reference to the proper pause button element
  * @param option.destination Address server receiver
  */
-function jsUpload(options){
+function jsUpload(options, parentSelf){
     var packetSize,
 	activeReconnectError = false,
 	activeReconnectTimeout = false,
@@ -39,6 +64,7 @@ function jsUpload(options){
 		log('File uploader initialized');
         self.file = options.file;
         self.idUpload = options.idUpload;
+        self.id = options.id;
 		self.totalSize = self.file.size;
         self.url = options.destination;
         self.type = self.file.type;
@@ -135,7 +161,6 @@ function jsUpload(options){
             xhr.onload = function(e) {
                 var response = JSON.parse(xhr.responseText);
                 if (response.action=="complete"){
-
                     log ('New upload completed, file: '+response.file);
 
 					//set progressbar to 100%, set the serverFileId for the dowload link
@@ -144,6 +169,7 @@ function jsUpload(options){
 					//last parameter is 'alldone' plus the timestamp
 					var currTimeStamp = Math.round(new Date().getTime() / 1000);
 					setFile(self.fileId, self.fileDetails.fileId, self.fileDetails.token, 'alldone|' + currTimeStamp);
+					checkAllUploads();
                 } else{
 					localStorage.removeItem(self.fileId)
 				}
@@ -152,6 +178,20 @@ function jsUpload(options){
 
         }
     }
+
+	function checkAllUploads() {
+		// set flag upload finish
+		parentSelf.statusUpload[self.id] = 1;
+		var allFinish = 1;
+		for(var i = 0; i < parentSelf.statusUpload.length; i++) {
+			if(parentSelf.statusUpload[i] == 0) {
+				allFinish = 0;
+				break;
+			}
+		}
+		if(allFinish)
+			parentSelf.uplFinCallback();
+	}
 
     function log(message){
         options.logger(message);

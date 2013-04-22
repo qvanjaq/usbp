@@ -13,7 +13,7 @@
 
 <body>
 	<?php
-		//session_destroy();
+		session_destroy();
 		echo 'Upload dir: ' . Yii::app()->params['uploadPath'];
 		echo '<pre id="sessionInfo" style="overflow: hidden; width: 550px; background-color: #fff; position: absolute;">Session information:';
 		var_dump(Yii::app()->session['filesInfo']);
