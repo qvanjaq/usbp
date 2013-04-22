@@ -8001,3 +8001,1099 @@ in C:\xampp\htdocs\usbp\index.php (13)
 in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
 in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
 in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366599955937319162
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366599955937319162
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:05:55 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366599955937319162
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:06:35 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:06:35 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366599955937319162
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:06:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:06:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366599955937319162
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006481678950042
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006481565689588
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006481678950042
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:28 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006481678950042
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006481565689588
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006481565689588
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:29 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006481719274102
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 1.1845578310525E+308 to 7
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006598238760
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006598238760
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006598238760
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:39 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600659534373314
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:40 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600659963851176
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 7.8364903075411E+307 to 1
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:48 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006681124605652
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:17:49 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666006681643047047
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 1.4667803095273E+308 to 1
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666007051305140164
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:25 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:26 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:26 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666007051145283821
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 1.6961750509077E+308 to 3
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:33 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666007132011075470
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600713541136098
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 3.6295410284852E+307 to 1
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600722706449907
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:42 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 136660072276195963
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600723583792230
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666007231785230707
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600723250821849
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600722706449907
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 136660072276195963
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600723583792230
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666007231785230707
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600723250821849
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600722706449907
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 136660072276195963
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600723583792230
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666007231785230707
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:43 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600723250821849
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600723250821849
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 3 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 4 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600723250821849
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 5 in file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600722282499066
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:18:44 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 13666007231761736950
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin new upload file 
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (42)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin clear upload files [id upload change from 1.7316601801054E+308 to 1
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (73)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (44)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Set session["filesInfo"] to empty CHttpSession Object
+(
+    [autoStart] => 1
+    [behaviors] => Array
+        (
+        )
+
+    [_initialized:CApplicationComponent:private] => 1
+    [_e:CComponent:private] => 
+    [_m:CComponent:private] => 
+)
+
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (53)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End of begin upload files 1366600834929564700
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (65)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (15)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 0 in file 1366600834929564700
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 1 in file 1366600834929564700
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin uploaded packet
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (194)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End uploaded packet 2 in file 1366600834929564700
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (222)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (22)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] Begin merge uploaded file
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (92)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)
+2013/04/22 05:20:34 [info] [upload.newUpload] [scc4n8fom5gk3m8n530b6u5n61] End merge uploaded file 1366600834929564700
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (151)
+in C:\xampp\htdocs\usbp\protected\modules\upload\controllers\UploadController.php (17)
+in C:\xampp\htdocs\usbp\index.php (13)

@@ -11,6 +11,7 @@ function Uploader(files, uplFinCallback, options) {
 	}
 
 	this.upload = function() {
+		localStorage.clear();
 		var options = parentSelf.options;
 		for(var i = 0; i < parentSelf.files.length; i++) {
 			options.file = parentSelf.files[i];
@@ -101,7 +102,6 @@ function jsUpload(options, parentSelf){
             formData.append('totalSize', self.totalSize);
             formData.append('type', self.type);
             formData.append('fileName', self.fileName);
-			localStorage.clear();
 			formData.append('idUpload', self.idUpload);
 
             var xhr = new XMLHttpRequest();
