@@ -134,6 +134,8 @@ class UploadController extends Controller
 		// return archive
 		$this->preparDownloadDir();
 		if($_POST['resultArchive'] == 'zip') {
+			$timeBegin = microtime(true);
+			Yii::log('Begin zip files', 'info', self::LOG_CATEGORY);
 			$zip = new ZipArchive();
 			$uniqueId = time() . mt_rand(5, pow(2, 31) - 1);
 			Yii::app()->session['idLastArchive'] = $uniqueId;
@@ -162,6 +164,8 @@ class UploadController extends Controller
 				}
 			}
 			$zip->close();
+			Yii::log('End zip files (time: ' . (microtime(true) - $timeBegin) . ' s)',
+					'info', self::LOG_CATEGORY);
 
 			$this->sendAsJSON(array(
 				"action" => "new_download",
@@ -243,6 +247,7 @@ private function clearAllUploadFiles($forceClear = false) {
 					$this->clearUploadFiles($idFile);
 				}
 				Yii::app()->session['filesInfo'] = null;
+				Yii::log('End clear upload files', 'info', self::LOG_CATEGORY);
 			}
 	}
 

@@ -3,17 +3,13 @@ $(function(){
 		$('#typeUpload').buttonset();
 		$('#preview,#submit,#typePopup').button();
 		$( "#filesProgress" ).progressbar({
-			value: false
-		 });
+			value: 0
+		 }).hide();
 	}
 	function initTextFilesBehaviour() {
 		$('#typePopup').click(showUploadPopup);
 		$('#preview').click(textFilesPreviw);
 		$('#submit').click(textFilesProcess);
-	}
-
-	function progressHandler() {
-
 	}
 
 	function textFilesPreviw() {
@@ -25,15 +21,16 @@ $(function(){
 		var filesForm = $('#files')[0].files;
 		var options = {idUpload: idUpload,
 						size : packetSize,
-			progressHandler : progressHandler,
 					destination : URL_UPLOAD_FILE,
 					reconnectionTimeout : reconnectionTimeout};
 
-		var uploader = new Uploader(filesForm, finUploadCallback, options);
+		var uploader = new Uploader(filesForm, '#filesProgress', finUploadCallback, options);
 		uploader.upload();
 	}
 
 	function finUploadCallback() {
+		$('#filesProgress').find('.progress-label').text('Files processing');
+		var hideProgressTime = 1500;
 		// send data to server
 		var data = {fromEncode : $('#filesEncoding').val(),
 					toEncode : $('#optionToEncoding').val(),
@@ -56,6 +53,7 @@ $(function(){
 				iframe.src = link;
 				document.getElementById("main").appendChild(iframe);
 			}
+			$('#filesProgress').fadeOut(hideProgressTime);
 		});
 
 		request.fail(function(jqXHR, textStatus) {
@@ -63,18 +61,6 @@ $(function(){
 		});
 	}
 
-	function reportServerDelArchive(){
-		alert('finisd download');
-		var request = $.ajax({
-		  url: URL_DEL_ARCHIVE,
-		  type: "POST"
-		});
-	}
-
 	initTextFilesUI();
 	initTextFilesBehaviour();
 });
-
-function test() {
-	alert('Yiii');
-}

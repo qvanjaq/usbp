@@ -51,3 +51,9 @@ textarea{
   #files{
 	  display: none;
   }
+
+ .progress-label {
+	width: 100% !important;
+	text-align: center !important;
+	margin-left: 0 !important;
+ }

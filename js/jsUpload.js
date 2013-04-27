@@ -1,13 +1,27 @@
-function Uploader(files, uplFinCallback, options) {
+function Uploader(files, selectorProgress, uplFinCallback, options) {
 	var parentSelf = this;
 
 	function init() {
 		parentSelf.files = files;
+		parentSelf.progress = $(selectorProgress);
+		options.progressHandler = progressHandler;
 		parentSelf.options = options;
 		parentSelf.uplFinCallback = uplFinCallback;
 		parentSelf.statusUpload = [];
-		for(var i = 0; i < parentSelf.files.length; i++)
+		parentSelf.sumFullSize = 0;
+		parentSelf.sumLoadedSize = 0;
+		for(var i = 0; i < parentSelf.files.length; i++) {
 			parentSelf.statusUpload[i] = 0;
+			parentSelf.sumFullSize += parentSelf.files[i].size;
+		}
+
+		parentSelf.progress.show();
+	}
+
+	function progressHandler(loadedBytes) {
+		parentSelf.sumLoadedSize += loadedBytes;
+		var percent = parentSelf.sumLoadedSize / parentSelf.sumFullSize * 100;
+		parentSelf.progress.progressbar('value', percent);
 	}
 
 	this.upload = function() {
@@ -150,7 +164,7 @@ function jsUpload(options, parentSelf){
         }else{
             // finished uploading data, let's close up the file on the server
             log('Finished uploading, informing the server.');
-
+			parentSelf.progress.progressbar({value : false}).find('.progress-label').text('Preparation of file processing');
             var formData = new FormData();
             formData.append('fileid', self.fileDetails.fileId);
             formData.append('token', self.fileDetails.token);
@@ -162,9 +176,6 @@ function jsUpload(options, parentSelf){
                 var response = JSON.parse(xhr.responseText);
                 if (response.action=="complete"){
                     log ('New upload completed, file: '+response.file);
-
-					//set progressbar to 100%, set the serverFileId for the dowload link
-					options.progressHandler(100, response.file);
 
 					//last parameter is 'alldone' plus the timestamp
 					var currTimeStamp = Math.round(new Date().getTime() / 1000);
@@ -230,25 +241,16 @@ function jsUpload(options, parentSelf){
         return packet;
     }
 
-    function updateProgress(details,position){
-
-        var progress = (((details.currentPackage*self.packetSize)+position)/self.totalSize)*100;
-
-		//pass the percent, we not passing the socond argument to the progressHandler (the serverFileId)
-		options.progressHandler(progress);
-
-    }
-
-
     function uploadPacket(packet){
         var xhr = new XMLHttpRequest();
         var url = self.url + "&fileid="+self.fileDetails.fileId+"&token="+self.fileDetails.token+"&packet="+self.fileDetails.currentPackage;
         var fileDetails = self.fileDetails;
-        updateProgress(fileDetails,0);
         xhr.open('POST', url, true);
-        xhr.onprogress = function(e){
-            updateProgress(fileDetails,e.position);
-        };
+
+		options.progressHandler(packet.size);
+        /*xhr.onprogress = function(e){
+			options.progressHandler(e.position);
+        };*/
 
 		// Multiple handle disconnect for different browsers.
 		// Use variable activeReconnect to prevent state, when browser
