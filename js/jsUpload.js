@@ -108,7 +108,6 @@ function jsUpload(options, parentSelf){
             xhr.open('POST', self.url, true);
             xhr.onload = function(e) {
                 var response = JSON.parse(xhr.responseText);
-
                 if (response.action=="new_upload"){
                     log ('New upload initialized with ID '+response.fileid+' and token '+response.token);
                     setDetails(setFile(fileId,response.fileid,response.token));
@@ -117,6 +116,7 @@ function jsUpload(options, parentSelf){
             xhr.send(formData);
         }
     }
+
 
     /**
      * Write to localStorage

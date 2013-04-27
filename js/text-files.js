@@ -35,9 +35,46 @@ $(function(){
 
 	function finUploadCallback() {
 		// send data to server
-		alert('send data');
+		var data = {fromEncode : $('#filesEncoding').val(),
+					toEncode : $('#optionToEncoding').val(),
+					resultArchive : $('#resultArchive').val(),
+					findText : $('#findText').val(),
+					replaceText : $('#replaceText').val()};
+		var request = $.ajax({
+		  url: URL_PROCESS_TEXT_FILE,
+		  type: "POST",
+		  data: data
+		});
+
+		request.done(function(data) {
+			var response = JSON.parse(data);
+			if(response.action === 'new_download') {
+				$('#loader').remove();
+				var link = response.link;
+				var iframe = document.getElementById("iframe");
+				iframe.style.display = "none";
+				iframe.src = link;
+				document.getElementById("main").appendChild(iframe);
+			}
+		});
+
+		request.fail(function(jqXHR, textStatus) {
+		  alert( "Request failed: ");
+		});
+	}
+
+	function reportServerDelArchive(){
+		alert('finisd download');
+		var request = $.ajax({
+		  url: URL_DEL_ARCHIVE,
+		  type: "POST"
+		});
 	}
 
 	initTextFilesUI();
 	initTextFilesBehaviour();
 });
+
+function test() {
+	alert('Yiii');
+}

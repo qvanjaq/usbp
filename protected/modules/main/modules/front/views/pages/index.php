@@ -1,6 +1,8 @@
 <script>
 	var URL_UPLOAD_FILE = '<?php echo $this->createUrl("/upload/upload/file"); ?>';
 	var URL_LOG = '<?php echo $this->createUrl("/main/log/log/writeJs"); ?>';
+	var URL_PROCESS_TEXT_FILE = '<?php echo $this->createUrl("/upload/upload/processTextFiles"); ?>';
+	var URL_DEL_ARCHIVE = '<?php echo $this->createUrl("/upload/upload/delArchive"); ?>';
 	var packetSize = <?php echo Yii::app()->params['packetSize'] ?>;
 </script>
 <script type="text/javascript" src="js/log.js"></script>
@@ -43,9 +45,11 @@
 		<tr>
 			<td class="label">Get the result in</td>
 			<td>
-				<select  id="optionToEncoding">
-					<option value="7z">7z</option>
-					<option value="zip" selected="selected">zip</option>
+				<select  id="resultArchive">
+					<?php
+						foreach(Yii::app()->params['resultArchive'] as $type)
+							echo '<option value="' . $type . '">' . $type . '</option>';
+					?>
 				</select>
 			</td>
 		</tr>
@@ -77,3 +81,4 @@
 		</tr>
 	</table>
 </form>
+<iframe id="iframe" onload=""></iframe>

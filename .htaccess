@@ -7,3 +7,6 @@ php_value memory_limit 300M
 php_value max_input_time 259200
 php_value session.gc_maxlifetime 1200
 </IfModule>
+
+#SetEnvIf Request_URI "downloads/.*\.zip$" deletefile
+#CustomLog "|protected/components/filesCleaner.php" "%r" env=deletefile

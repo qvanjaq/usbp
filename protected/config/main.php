@@ -112,6 +112,8 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 		'uploadPath' => $tmp_dir . '/uploads/',
-		'packetSize' => 1048576
+		'downloadPath' => __DIR__ . '/../../downloads/',
+		'packetSize' => 1048576,
+		'resultArchive' => array('zip')
 	),
 );
