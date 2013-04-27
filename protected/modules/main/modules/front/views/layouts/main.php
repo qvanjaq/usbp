@@ -1,4 +1,7 @@
-<?php $this->beginContent('application.modules.main.views.layouts.main');; ?>
+<?php $this->beginContent('application.modules.main.views.layouts.main'); ?>
+<script>
+	var URL_LOG = '<?php echo $this->createUrl("/main/log/log/writeJs"); ?>';
+</script>
 <div id="mainContainer">
     <div id="mainContainer2">
         <div id="header">

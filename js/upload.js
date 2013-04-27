@@ -1,43 +1,3 @@
-function Uploader(files, selectorProgress, uplFinCallback, options) {
-	var parentSelf = this;
-
-	function init() {
-		parentSelf.files = files;
-		parentSelf.progress = $(selectorProgress);
-		options.progressHandler = progressHandler;
-		parentSelf.options = options;
-		parentSelf.uplFinCallback = uplFinCallback;
-		parentSelf.statusUpload = [];
-		parentSelf.sumFullSize = 0;
-		parentSelf.sumLoadedSize = 0;
-		for(var i = 0; i < parentSelf.files.length; i++) {
-			parentSelf.statusUpload[i] = 0;
-			parentSelf.sumFullSize += parentSelf.files[i].size;
-		}
-
-		parentSelf.progress.show();
-	}
-
-	function progressHandler(loadedBytes) {
-		parentSelf.sumLoadedSize += loadedBytes;
-		var percent = parentSelf.sumLoadedSize / parentSelf.sumFullSize * 100;
-		parentSelf.progress.progressbar('value', percent);
-	}
-
-	this.upload = function() {
-		localStorage.clear();
-		var options = parentSelf.options;
-		for(var i = 0; i < parentSelf.files.length; i++) {
-			options.file = parentSelf.files[i];
-			options.id = i;
-			new jsUpload(options, parentSelf);
-		}
-	};
-
-	init();
-}
-
-
 /**
  * The core upload function. The way it works is very simple: slice the file on client side, sends the slices
  * to the server. When no more slices remain the server merges the slices (or packets). This function continuously stores
@@ -48,10 +8,9 @@ function Uploader(files, selectorProgress, uplFinCallback, options) {
  * @parma option.size Size of each packet
  * @param options.logger Logger element, where we write the logs.
  * @param options.progressHandler Function that updates the progressbar value, at percent 100 it shows the 'success image'
- * @param options.pauseButton Reference to the proper pause button element
  * @param option.destination Address server receiver
  */
-function jsUpload(options, parentSelf){
+function Upload(options, parentSelf){
     var packetSize,
 	activeReconnectError = false,
 	activeReconnectTimeout = false,
@@ -60,20 +19,6 @@ function jsUpload(options, parentSelf){
     options.logger = options.logger || function(msg){
         console.log(msg);
     };
-
-
-	//check for existence of pausebutton, and set to green everytime the jsUpload() started
-	if (options.pauseButton) {
-		options.pauseButton.uploadState = "uploading";
-		options.pauseButton.innerHTML   = "Pause";
-		//set pause button color to green
-		options.pauseButton.className   = "pauseButton small button green";
-	} else {
-		//if we dont have a pasue button, what means we already uploaded the file, so return
-		/* @modifid dnd Uploader */
-		//return;
-	}
-
 
     function init(){
 		log('File uploader initialized');
@@ -216,16 +161,7 @@ function jsUpload(options, parentSelf){
         details.currentPackage++;
         var fileDetails = setFile(self.fileId,details.fileId,details.token,details.currentPackage);
 
-		if(options.pauseButton){
-			if (options.pauseButton.uploadState!="pausing" && options.pauseButton.uploadState!="paused"){
-				setDetails(fileDetails);
-			}else{
-				options.pauseButton.uploadState = "paused";
-				options.pauseButton.innerHTML 	= "Continue upload";
-			}
-		} else {
-			setDetails(fileDetails);
-		}
+		setDetails(fileDetails);
     }
 
    	/**
@@ -287,16 +223,4 @@ function jsUpload(options, parentSelf){
     }
 
     init();
-
-	if(options.pauseButton){
-		options.pauseButton.onclick = function(){
-			if (options.pauseButton.uploadState == 'uploading') {
-				options.pauseButton.uploadState = 'pausing';
-				options.pauseButton.innerHTML   = 'Pausing..';
-				options.pauseButton.className   = 'pauseButton small button red';
-			}else if (options.pauseButton.uploadState == "paused"){
-				new jsUpload(options);
-			}
-		};
-	}
 }

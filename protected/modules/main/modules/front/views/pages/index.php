@@ -1,13 +1,9 @@
-<script>
-	var URL_UPLOAD_FILE = '<?php echo $this->createUrl("/upload/upload/file"); ?>';
-	var URL_LOG = '<?php echo $this->createUrl("/main/log/log/writeJs"); ?>';
-	var URL_PROCESS_TEXT_FILE = '<?php echo $this->createUrl("/upload/upload/processTextFiles"); ?>';
-	var URL_DEL_ARCHIVE = '<?php echo $this->createUrl("/upload/upload/delArchive"); ?>';
-	var packetSize = <?php echo Yii::app()->params['packetSize'] ?>;
-</script>
+<script type="text/javascript"><?php require_once 'js/main-files.php'; ?></script>
 <script type="text/javascript" src="js/log.js"></script>
-<script src="js/jsUpload.js"></script>
-<script type="text/javascript" src="js/upload-files.js"></script>
+<script type="text/javascript" src="js/upload.js"></script>
+<script type="text/javascript" src="js/uploader.js"></script>
+<script type="text/javascript" src="js/service.js"></script>
+<script type="text/javascript" src="js/download-files.js"></script>
 <script type="text/javascript" src="js/text-files.js"></script>
 
 <form name="onlyFiles" method="post" enctype="multipart/form-data">
@@ -81,4 +77,3 @@
 		</tr>
 	</table>
 </form>
-<iframe id="iframe" onload=""></iframe>

@@ -46,12 +46,7 @@ $(function(){
 		request.done(function(data) {
 			var response = JSON.parse(data);
 			if(response.action === 'new_download') {
-				$('#loader').remove();
-				var link = response.link;
-				var iframe = document.getElementById("iframe");
-				iframe.style.display = "none";
-				iframe.src = link;
-				document.getElementById("main").appendChild(iframe);
+				downloadFile(response.link);
 			}
 			$('#filesProgress').fadeOut(hideProgressTime);
 		});
