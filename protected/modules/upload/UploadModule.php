@@ -9,7 +9,6 @@ class UploadModule extends CWebModule
 
 		// import the module-level models and components
 		$this->setImport(array(
-			'upload.models.*',
 			'upload.components.*',
 		));
 	}
