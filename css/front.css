@@ -1,11 +1,4 @@
-#dropPanel{
-	width: 250px;
-	height: 70px;
-	background-color: #858585;
-	float: right;
-	margin-bottom: 5px;
-}
-#dropPanel,textarea{
+textarea{
 	border-radius: 3px;
 	border: 0px;
 }
@@ -44,10 +37,7 @@ textarea{
   #filesProgress{
 	  font-size: 11px;
   }
-  #dropPanel .info{
-	  text-align: center;
-	  margin-top: 25px;
-  }
+
   #files{
 	  display: none;
   }

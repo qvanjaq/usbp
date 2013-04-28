@@ -18,9 +18,6 @@
 				<input type="button" id="typePopup" value="Open">
 			</td>
 		</tr>
-		<tr>
-			<td colspan="2"><div id="dropPanel"><div class="info">Or drag and drop files here</div></div></td>
-		</tr>
 		<tr id="filesEncodingWrapper">
 			<td class="label">Files encoding</td>
 			<td>

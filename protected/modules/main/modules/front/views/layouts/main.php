@@ -5,10 +5,11 @@
 <div id="mainContainer">
     <div id="mainContainer2">
         <div id="header">
+			<div id="logo"></div>
             <div id="mainMenu">
                 <ul>
-                    <li><a>Images</a></li>
-                    <li><a>Texts</a></li>
+                    <li><a href="">Images</a></li>
+                    <li><a href="">Texts</a></li>
                 </ul>
             </div>
         </div>
