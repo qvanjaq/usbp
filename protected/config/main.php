@@ -61,8 +61,7 @@ return array(
 		),
 		*/
 		'errorHandler'=>array(
-			// use 'site/error' action to display errors
-			'errorAction'=>'site/error',
+			'errorAction'=>'main/front/errors/error',
 		),
 		'log'=>array(
 			'class'=>'CLogRouter',
@@ -80,7 +79,7 @@ return array(
 				array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
-					'categories' => 'upload.*',
+					'categories' => 'upload.*, php, exception*',
 					'filter'=> array(
 						'class' => 'CLogFilter',
 						'logVars' => array('_POST', '_GET', '_SESSION'),
