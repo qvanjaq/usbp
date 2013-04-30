@@ -8,8 +8,8 @@
 			<div id="logo"></div>
             <div id="mainMenu">
                 <ul>
-                    <li><a href="">Images</a></li>
-                    <li><a href="">Texts</a></li>
+                    <li><a href="<?php echo $this->createUrl("/main/front/pages/images"); ?>">Images</a></li>
+                    <li><a href="<?php echo $this->createUrl("/main/front/pages/textFiles"); ?>">Texts</a></li>
                 </ul>
             </div>
         </div>

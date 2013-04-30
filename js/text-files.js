@@ -1,7 +1,6 @@
 $(function(){
 	function initTextFilesUI() {
-		$('#typeUpload').buttonset();
-		$('#preview,#submit,#typePopup').button();
+		$('#preview,#submit,#typePopup,#typeUpload').button();
 		$( "#filesProgress" ).progressbar({
 			value: 0
 		 }).hide();

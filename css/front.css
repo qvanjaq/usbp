@@ -1,7 +1,3 @@
-textarea{
-	border-radius: 3px;
-	border: 0px;
-}
 .label{
 	font-size: 14px;
 	width: 162px;
@@ -18,32 +14,30 @@ textarea{
 	width: 387px;
 	margin: 10px auto;
 }
-textarea{
-	width: 200px;
-	height: 55px;
-
-}
 #filesForm tr td {
 	padding-bottom: 10px;
 }
- .progress-label {
-    float: left;
-    margin-left: 50%;
-    margin-top: 5px;
-    font-weight: bold;
-    text-shadow: 1px 1px 0 #fff;
-  }
-
-  #filesProgress{
-	  font-size: 11px;
-  }
-
-  #files{
-	  display: none;
-  }
-
- .progress-label {
-	width: 100% !important;
-	text-align: center !important;
-	margin-left: 0 !important;
+.progress-label {
+   float: left;
+   margin-left: 50%;
+   margin-top: 5px;
+   font-weight: bold;
+   text-shadow: 1px 1px 0 #fff;
  }
+
+ #filesProgress{
+	 font-size: 11px;
+ }
+
+ #files{
+	 display: none;
+ }
+
+.progress-label {
+   width: 100% !important;
+   text-align: center !important;
+   margin-left: 0 !important;
+}
+#resultArchive {
+   width: 54px;
+}

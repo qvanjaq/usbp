@@ -3,6 +3,11 @@ class PagesController extends Controller
 {
 	public function actionTextFiles()
 	{
-		$this->render('index');
+		$this->render('textFiles');
+	}
+
+	public function actionImages()
+	{
+		$this->render('images');
 	}
 }
