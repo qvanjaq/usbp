@@ -4,7 +4,12 @@
 <script type="text/javascript" src="js/uploader.js"></script>
 <script type="text/javascript" src="js/service.js"></script>
 <script type="text/javascript" src="js/download-files.js"></script>
+<script type="text/javascript" src="js/FileSaver.min.js"></script>
+<script type="text/javascript" src="js/jszip.js"></script>
+<script type="text/javascript" src="js/jpeg_encoder_basic.js"></script>
 <script type="text/javascript" src="js/images.js"></script>
+
+
 <?php
   $baseUrl = Yii::app()->baseUrl;
   $cs = Yii::app()->getClientScript();
@@ -26,9 +31,9 @@
 			<td class="label">Convert to</td>
 			<td>
 				<select  id="convertTo">
-					<option value="jpeg">jpeg</option>
+					<option value="jpg">jpg</option>
 					<option value="png">png</option>
-					<option value="gif">gif</option>
+					<!-- <option value="gif">gif</option> -->
 				</select>
 			</td>
 		</tr>
