@@ -31,6 +31,7 @@
 			<td class="label">Convert to</td>
 			<td>
 				<select  id="convertTo">
+					<option value="not">not</option>
 					<option value="jpg">jpg</option>
 					<option value="png">png</option>
 					<!-- <option value="gif">gif</option> -->
@@ -40,13 +41,13 @@
 		<tr>
 			<td class="label">Width</td>
 			<td>
-				<input class="imageSize" type="text" id="width" />
+				<input class="imageSize" placeholder="auto" type="text" id="width" />
 			</td>
 		</tr>
 		<tr>
 			<td class="label">Height</td>
 			<td>
-				<input class="imageSize" type="text" id="height" />
+				<input class="imageSize" placeholder="auto" type="text" id="height" />
 			</td>
 		</tr>
 		<tr>

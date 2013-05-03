@@ -4,7 +4,7 @@ $(function() {
 		$('#filesProgress').progressbar({
 			value: 0
 		 }).hide();
-		 $('#quality').slider({'min' : 1, 'max' : 100, 'value' : 100});
+		 $('#quality').slider({'min' : 1, 'max' : 95, 'value' : 85});
 	}
 
 	function initImagesBehaviour() {
@@ -20,8 +20,12 @@ $(function() {
 	function imagesProcess() {
 		var filesForm = $('#files')[0].files;
 		var convertTo = $('#convertTo').val();
+		var width = $('#width').val();
+		var height = $('#height').val();
+		var quality = $('#quality').slider('value');
+
 		imagesFromFiles(filesForm, function(images) {
-			var dataUrl = processImages(images, convertTo);
+			var dataUrl = processImages(images, convertTo, width, height, quality);
 			zipFiles(dataUrl);
 		});
 
@@ -39,6 +43,7 @@ $(function() {
 				return function(event) {
 					var image = new Image();
 					image.setAttribute('data-filename', f.name)
+					image.setAttribute('data-type', f.type)
 					image.onload = function(){
 						images.push(image);
 						if(files.length === images.length) {
@@ -55,25 +60,41 @@ $(function() {
 		}
 	}
 
-	function processImages(images, convertTo) {
+	function processImages(images, convertTo, width, height, quality) {
 		var dataUrl = [];
 		var canvas = document.createElement('canvas');
 		canvas.style.display = 'none';
+		canvas.width = width;
+		canvas.height = height;
 		document.body.appendChild(canvas);
 		for(var i = 0; i < images.length; i++) {
-			canvas.width = images[i].width;
-			canvas.height = images[i].height;
-			canvas.getContext('2d').drawImage(images[i], 0, 0);
+			if(width === '' && height !== '') {
+				canvas.width = images[i].width / images[i].height * height;
+			}
+
+			if(height === '' && width !== '') {
+				canvas.height = images[i].height / images[i].width * width;
+			}
+
+			if(width === '' && height === '') {
+				canvas.width = images[i].width;
+				canvas.height = images[i].height;
+			}
+			var ctx = canvas.getContext('2d');
+			//ctx.imageSmoothingEnabled = false;
+			//ctx.webkitImageSmoothingEnabled  = false;
+			ctx.drawImage(images[i], 0, 0, canvas.width, canvas.height);
 
 			dataUrl[i] = {};
-			if(convertTo === 'jpeg') {
-				var myEncoder = new JPEGEncoder(85);
+			var fileType = images[i].getAttribute('data-type');
+			if(convertTo === 'jpg' || (fileType === 'image/jpeg' && convertTo === 'not')) {
+				var myEncoder = new JPEGEncoder(quality);
 				var canvasPixelArray = canvas.getContext('2d').
 						getImageData(0, 0, canvas.width, canvas.height);
 				var JPEGImage = myEncoder.encode(canvasPixelArray);
 				dataUrl[i]['data'] = JPEGImage;
 			} else {
-				dataUrl[i]['data'] = canvas.toDataURL('type/' + convertTo, 0.1);
+				dataUrl[i]['data'] = canvas.toDataURL('type/' + 'png');
 			}
 
 			var prevFilename = images[i].getAttribute('data-filename');
@@ -81,7 +102,16 @@ $(function() {
 			if(extPos === -1)
 				extPos = prevFilename.length;
 
-			var newFileName = prevFilename.substr(0, extPos) + '.' + convertTo;
+			var extension = null;
+			if(convertTo === 'jpg' || convertTo === 'png') {
+				extension = convertTo;
+			} else if(fileType === 'image/jpeg') {
+				extension = 'jpg';
+			} else {
+				extension = 'png';
+			}
+
+			var newFileName = prevFilename.substr(0, extPos) + '.' + extension;
 			dataUrl[i]['filename'] = newFileName;
 		}
 		document.body.removeChild(canvas);
